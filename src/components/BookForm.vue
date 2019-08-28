@@ -6,10 +6,12 @@
       Finished Reading
     <input type="checkbox" v-model="bookData.finishedReading">
     </label>
-    <label for="borrwoed">
+    <label for="borrowed">
+      Borrowed
     <input type="radio" v-model="bookData.ownership" value="borrowed">
     </label>
     <label for="bought">
+      Bought
     <input type="radio" v-model="bookData.ownership" value="bought">
     </label>
     <button type="submit" name="button">Add Book</button>
